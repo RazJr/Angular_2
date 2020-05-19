@@ -1,1 +1,19 @@
-<p>navbar works!</p>
+<header>
+    <nav>
+        <div class="row">
+            <div class="col-12">
+                <ul class="Navbar">
+                    <li class="Titulo">{{tituloEmpresa}}</li>
+                    <li *ngFor="let titulo of NavbarTitulos">{{titulo}}</li>
+                    <li >
+                        <i class="fi-ecommerce-shopping-bag-2"></i>
+                    </li>
+                    <li>
+                        <i class="fi-interface-user mr-2"></i>
+                        <span>Log In</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
