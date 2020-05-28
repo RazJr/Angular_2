@@ -1,0 +1,52 @@
+.contenedor{
+    width: 70%;
+    height: 100vh;
+    margin: auto;
+    background: #f2f2f2;
+}
+
+h1{
+    /* background: #000; */
+    height: 8vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tipos{
+    margin-right: 5px;
+    list-style-type: none;
+    background: #ccc;
+    width: 50px;
+    text-align: center;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Fila{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 30vvh;
+}
+
+.Fila img{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: #000;
+}
+
+.Fila ul{
+    background: #000;
+    width: 60%;
+    height: 80%;
+}
+
+.descripcion{
+    width: 90%;
+    margin: auto;
+}

@@ -1,0 +1,20 @@
+<ul class="list-group">
+    <ng-container *ngFor="let person of people">
+        <li class="list-group-item text-success"
+         *ngIf="person.contry === 'Mars'">
+            {{person.name}} {{person.age}}
+        </li>
+        <li class="list-group-item text-success"
+         *ngIf="person.contry === 'Rusia'">
+            {{person.name}} {{person.age}}
+        </li>
+        <li class="list-group-item text-success"
+         *ngIf="person.contry === 'Canada'">
+            {{person.name}} {{person.age}}
+        </li>
+        <li class="list-group-item text-success"
+         *ngIf="person.contry !== 'USA' || person.contry !=='Canada' || person.contry !== ''">
+            {{person.name}} {{person.age}}
+        </li>
+    </ng-container>
+</ul>
